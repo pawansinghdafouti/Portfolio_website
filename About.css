@@ -1,0 +1,31 @@
+/* Animated gradient background */
+.animated-background {
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+    background-size: 400% 400%;
+    animation: gradient-animation 3s ease infinite;
+  }
+  
+  /* Keyframes for gradient animation */
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Text color settings */
+  .text-black {
+    color: black;
+  }
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  .text-gray-600 {
+    color: #718096;
+  }
+  
